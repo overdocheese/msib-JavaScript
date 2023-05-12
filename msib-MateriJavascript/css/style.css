@@ -1,0 +1,21 @@
+#calculator table {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 5px 3px;
+}
+
+.container {
+    width: 38%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+#btn-calculator {
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+<script>
+    let namaPegawai = "Rizqy";
+    let jabatan = "Staff"; // Jabatan = Manager, Asisten Manager, Staff
+    let Status = "Belum Kawin"; // Status = Belum Kawin, Kawin
+    
+    if(jabatan == "Manager" && Status == "Kawin") {
+        let gajiPokok = 10000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let tunjanganKeluarga = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan + tunjanganKeluarga) - bpjs ; 
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Potongan BPJS = " + bpjs + "<br/> Tunjangan Keluarga = " + tunjanganKeluarga + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    } else if(jabatan == "Manager" && Status == "Belum Kawin") {
+        let gajiPokok = 10000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan) - bpjs;
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Potongan BPJS = " + bpjs + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    } else if(jabatan == "Asisten Manager" && Status == "Kawin") {
+        let gajiPokok = 8000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let tunjanganKeluarga = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan + tunjanganKeluarga) - bpjs ; 
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Potongan BPJS = " + bpjs + "<br/> Tunjangan Keluarga = " + tunjanganKeluarga + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    } else if(jabatan == "Asisten Manager" && Status == "Belum Kawin") {
+        let gajiPokok = 8000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan) - bpjs;
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Potongan BPJS = " + bpjs + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    } else if(jabatan == "Staff" && Status == "Kawin") {
+        let gajiPokok = 5000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let tunjanganKeluarga = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan + tunjanganKeluarga) - bpjs ; 
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Tunjangan Keluarga = " + tunjanganKeluarga + "<br/> Potongan BPJS = " + bpjs + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    } else if(jabatan == "Staff" && Status == "Belum Kawin") {
+        let gajiPokok = 5000000;
+        let tunjanganJabatan = 0.1 * gajiPokok;
+        let bpjs = 0.1 * gajiPokok;
+        let totalGajiBersih = (gajiPokok + tunjanganJabatan) - bpjs;
+        document.write("Nama Pegawai = " + namaPegawai + "<br/> Jabatan = " + jabatan + "<br/> Status = " + Status + "<br/> Gaji Pokok = " + gajiPokok + "<br/> Tunjangan Jabatan = " + tunjanganJabatan + "<br/> Potongan BPJS = " + bpjs + "<br/> Total Gaji Bersih = " + totalGajiBersih)
+    }
+</script>

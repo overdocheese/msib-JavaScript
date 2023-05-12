@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="#" id="calculator" onsubmit="validasi()">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">CALCULATOR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Input Angka 1 : </p>
+                        </td>
+                        <td>
+                            <input type="text" name="angka1" id="angka-1" placeholder="Masukkan Angka">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Input Angka 2 : </p>
+                        </td>
+                        <td>
+                            <input type="text" name="angka2" id="angka-2" placeholder="Masukkan Angka">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="btn-calculator">
+                            <button type="button" name="btn-tambah" onclick="tambah()">+</button>
+                            <button type="button" name="btn-kurang" onclick="kurang()">-</button>
+                            <button type="button" name="btn-bagi" onclick="bagi()">÷</button>
+                            <button type="button" name="btn-kali" onclick="kali()">*</button>
+                            <button type="button" name="btn-pangkat" onclick="pangkat()">**</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Hasil : </p>
+                        </td>
+                        <td>
+                            <input type="text" name="hasil" id="" disabled>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

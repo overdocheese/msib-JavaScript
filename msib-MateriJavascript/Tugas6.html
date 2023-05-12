@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".sembunyi").click(function(){
+                $("#foto").hide("slow");
+                $("#foto2").hide("slow");
+                $("#foto3").hide("slow");
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td>
+                <img class="sembunyi" id="foto" width="75%" src="https://img.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_181624-399.jpg?w=740&t=st=1679040391~exp=1679040991~hmac=df9ed3fc3a9a8167e2ec6be48dbe5ae3cf5ba35481205c4b643ac587fcfd32a0" alt=""></td>
+            <td>
+                <img class="sembunyi" id="foto2" width="75%" src="https://img.freepik.com/free-photo/mountainous-landscape-with-fog_1150-18328.jpg?w=740&t=st=1679040501~exp=1679041101~hmac=9985802f157d9147281af050cd78d7f0edd17304c140aa420be4228d1c5f00fe" alt="">
+            </td>
+            <td>
+                <img class="sembunyi" id="foto3" width="75%" src="https://img.freepik.com/free-photo/beautiful-shot-snowy-mountain-sunset_181624-37878.jpg?w=740&t=st=1679040504~exp=1679041104~hmac=2dba148a9e68169aa232dc75e6c50b04185e2b36d133869aeb3eaf5524ef5c8e" alt="">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
